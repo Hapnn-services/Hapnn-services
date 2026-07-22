@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f6f1" />
+      <stop offset="100%" stop-color="#dfe9e1" />
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#1b1d1c" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)" />
+  <rect width="800" height="600" fill="url(#dots)" />
+
+  <!-- floating accent blocks -->
+  <rect x="86" y="86" width="42" height="42" rx="10" fill="#c9dccb" transform="rotate(-10 107 107)" />
+  <rect x="606" y="104" width="48" height="48" rx="11" fill="#2fbf71" transform="rotate(12 630 128)" />
+  <rect x="646" y="452" width="34" height="34" rx="8" fill="#eceae0" transform="rotate(8 663 469)" />
+
+  <!-- ground shadow -->
+  <ellipse cx="360" cy="462" rx="260" ry="16" fill="#1b1d1c" opacity="0.08" />
+
+  <!-- road -->
+  <line x1="40" y1="432" x2="760" y2="432" stroke="#1b1d1c" stroke-opacity="0.16" stroke-width="2" stroke-dasharray="10 12" />
+
+  <!-- trailer -->
+  <rect x="150" y="258" width="292" height="152" rx="16" fill="#ffffff" stroke="#1b1d1c" stroke-width="3" />
+  <rect x="150" y="354" width="292" height="30" fill="#2fbf71" />
+
+  <!-- cab -->
+  <rect x="442" y="298" width="122" height="112" rx="14" fill="#2fbf71" stroke="#1b1d1c" stroke-width="3" />
+  <rect x="462" y="314" width="48" height="48" rx="7" fill="#eef4ee" stroke="#1b1d1c" stroke-width="2" />
+  <rect x="442" y="396" width="122" height="18" rx="6" fill="#d9ded9" stroke="#1b1d1c" stroke-width="2" />
+
+  <!-- wheels -->
+  <circle cx="222" cy="422" r="34" fill="#1b1d1c" />
+  <circle cx="222" cy="422" r="13" fill="#f7f6f1" />
+  <circle cx="382" cy="422" r="34" fill="#1b1d1c" />
+  <circle cx="382" cy="422" r="13" fill="#f7f6f1" />
+  <circle cx="502" cy="422" r="34" fill="#1b1d1c" />
+  <circle cx="502" cy="422" r="13" fill="#f7f6f1" />
+</svg>
