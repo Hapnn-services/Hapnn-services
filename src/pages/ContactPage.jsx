@@ -41,7 +41,7 @@ export default function ContactPage() {
               <ul className="contact-info">
                 <li>
                   <span>Email</span>
-                  <a href="mailto:contact@hapnn.com">contact@hapnn.com</a>
+                  <a href="mailto:contact@hapnn.ca">contact@hapnn.ca</a>
                 </li>
                 <li>
                   <span>Location</span>
