@@ -36,6 +36,9 @@ export default function Footer() {
               <li>
                 <Link to="/contact">Book a call</Link>
               </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
             </ul>
           </div>
         </div>

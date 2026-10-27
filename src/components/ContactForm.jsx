@@ -115,6 +115,9 @@ export default function ContactForm() {
       return
     }
 
+    // The form uses noValidate, so enforce the `required` fields here.
+    if (!form.reportValidity()) return
+
     if (RECAPTCHA_SITE_KEY && !getCaptchaToken()) {
       setStatus('captcha')
       return

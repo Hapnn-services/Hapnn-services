@@ -12,6 +12,7 @@ export default function Nav() {
             <Link to="/services">Services</Link>
             <Link to="/#numbers">Numbers</Link>
             <Link to="/#process">Process</Link>
+            <Link to="/blog">Blog</Link>
             <Link to="/contact">Contact</Link>
           </nav>
           <Link className="btn btn-primary btn-sm nav-cta" to="/contact">
@@ -23,6 +24,7 @@ export default function Nav() {
         <Link to="/services">Services</Link>
         <Link to="/#numbers">Numbers</Link>
         <Link to="/#process">Process</Link>
+        <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
       </nav>
     </>

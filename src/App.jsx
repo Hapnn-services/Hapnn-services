@@ -8,6 +8,8 @@ import ServicePage from './pages/ServicePage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import TermsPage from './pages/TermsPage.jsx'
+import BlogIndex from './pages/BlogIndex.jsx'
+import BlogPost from './pages/BlogPost.jsx'
 
 /** Scrolls to top on route change, or to the anchor when a hash is present. */
 function ScrollManager() {
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<ServicesIndex />} />
           <Route path="/services/:slug" element={<ServicePage />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsPage />} />
